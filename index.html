@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script>
+
+    </script>
+</head>
+<body>
+    <div id="page">
+        <header><img src="images/MicrosoftTeams-image (1).png" alt="prb"></header>
+        <main>
+            <form >
+                <fieldset>
+                    <legend align="center">Vente PIZZA</legend>
+                    <table>
+                        <tr><th>Nom du client :</th><td>
+                            <input type="text" name="NOm" value="Khaldi khalid"></td></tr>
+                        <tr><th>Adresse du client</th><td > <input type="text" name="Adres" value="891 Lots hajar Ain chkef"></td></tr>
+                        <tr><th>Choisissez vos pizzas :</th><td><select name="pizza" >
+                            <option value="Pizza1">Pizza 2 fromages(80DH)</option>
+                            <option value="Pizza1">Pizza 4 fromages(120DH)</option>
+                            <option value="Pizza1">Pizza 6 fromages(160DH)</option>
+                        </select></td>
+                    <td>Quantité : <input  type="number" name="quantité" value="2" id="size"></td></tr>
+                    <tr><td colspan="2"></td> <th align="right"><input class="button" type="button" value="Ajouter">
+                    <input class="button" type="reset" value="Annuler">
+                </th></tr>
+                    </table>
+                <hr color="brown" width="80%" align="left">
+                <table>
+                    <tr><th>Paiemant Par :</th> <td class="ali"><input type="radio" name="s">Carte banquaire <input type="radio" name="s" checked="checked">Chéque</td></tr>
+                    <tr><th>Numéro de la carte banquaire :</th><td class="ali"><input type="text" name="numero de carte" ></td></tr>
+                    <tr><th></th><th><input class="button"  type="submit" value="Envoyer" ></th></tr>
+                    <tr><td colspan="2" id="t">merci pour votre visite,
+                        le montant total est : <input type="text" readonly="readonly" name="montant" value="280DH"> 
+                    </td></tr>
+                </table>
+                </fieldset>
+            </form>
+        </main>
+        <article> 
+            <form >
+            <h3>Les articles choisis :</h3>
+            <table border="1px">
+                <tr><th>Nom pizza</th><th>Prix unitaire</th><th>Quantité</th></tr>
+                <tr id="t"><td>Pizza 4 fromages</td><td>80DH</td><td>2</td></tr>
+                <tr id="t"><td>Pizza Viande Hachée</td><td>120DH</td><td>1</td></tr>
+                
+            </table>
+            <h3 id="a" >Montant total :280 DH</h3>
+            <button class="button">Enregistrer</button>
+          </form>
+        </article>
+        <footer><h2>@PIZZA HUT MAROC 2019/2020</h2></footer>
+
+
+
+
+
+
+    </div>
+</body>
+</html>
